@@ -1,16 +1,46 @@
-.DS_Store
-node_modules
-/build
-/.svelte-kit
-/package
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build outputs
+dist/
+build/
+coverage/
+.next/
+.vite/
+
+# logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env files
 .env
 .env.*
 !.env.example
-.vercel
-.output
-/packages/**/build
-/packages/**/dist
-/apps/**/build
-/apps/**/dist
-/infra/**/build
-/infra/**/dist
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# TypeScript
+*.tsbuildinfo
+
+# uploads/local runtime files
+apps/api/uploads/
+apps/api/logs/
+apps/api/dist/
+apps/web/dist/
+
+# package manager locks - keep only root pnpm-lock.yaml
+apps/*/pnpm-lock.yaml
+apps/*/package-lock.json
+apps/*/yarn.lock
+package-lock.json
+yarn.lock
