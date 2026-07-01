@@ -1,4 +1,12 @@
 packages:
-  # all packages in direct subdirs of packages/
-  - "packages/*"
-  - "apps/*"
+  - 'apps/*'
+
+onlyBuiltDependencies:
+  - '@nestjs/core'
+  - '@swc/core'
+  - 'bcrypt'
+  - 'esbuild'
+  - 'nice-napi'
+  - 'sharp'
+
+minimumReleaseAge: 1440

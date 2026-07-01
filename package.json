@@ -1,44 +1,42 @@
 {
   "name": "nestjs-advanced-course",
+  "version": "1.0.0",
   "private": true,
+  "description": "Monorepo for NestJS API and React web app",
+  "license": "UNLICENSED",
   "scripts": {
-    "build-all":"pnpm run --parallel -r build",
-    "nx-build-all":"nx run-many --target=build",
-    "lint": "node node_modules/prettier/bin-prettier --check \"**/*.{js,json,ts,yml,yaml}\"",
-    "prepare": "husky install",
-    "test": "pnpm run -r test",
-    "prettier": "node node_modules/prettier/bin-prettier --check '**/*.{js,json,ts,yml,yaml}'",
-    "prettier:write": "node node_modules/prettier/bin-prettier --write \"**/*.{js,json,ts,yml,yaml}\""
+    "dev": "pnpm --parallel --filter @nest/api --filter @nest/web run dev",
+    "api": "pnpm --filter @nest/api",
+    "api:dev": "pnpm --filter @nest/api run dev",
+    "api:start": "pnpm --filter @nest/api run start",
+    "api:start:dev": "pnpm --filter @nest/api run start:dev",
+    "api:start:debug": "pnpm --filter @nest/api run start:debug",
+    "api:start:prod": "pnpm --filter @nest/api run start:prod",
+    "api:build": "pnpm --filter @nest/api run build",
+    "api:lint": "pnpm --filter @nest/api run lint",
+    "api:test": "pnpm --filter @nest/api run test",
+    "api:test:e2e": "pnpm --filter @nest/api run test:e2e",
+    "api:db:create": "pnpm --filter @nest/api run db:create",
+    "api:db:drop": "pnpm --filter @nest/api run db:drop",
+    "api:db:reset": "pnpm --filter @nest/api run db:reset",
+    "api:db:fresh": "pnpm --filter @nest/api run db:fresh",
+    "api:db:fresh:force": "pnpm --filter @nest/api run db:fresh:force",
+    "api:db:migrate": "pnpm --filter @nest/api run db:migrate",
+    "api:db:migrate:revert": "pnpm --filter @nest/api run db:migrate:revert",
+    "api:db:migrate:show": "pnpm --filter @nest/api run db:migrate:show",
+    "api:db:seed": "pnpm --filter @nest/api run db:seed",
+    "web": "pnpm --filter @nest/web",
+    "web:dev": "pnpm --filter @nest/web run dev",
+    "web:build": "pnpm --filter @nest/web run build",
+    "web:preview": "pnpm --filter @nest/web run preview",
+    "web:lint": "pnpm --filter @nest/web run lint",
+    "build": "pnpm run api:build && pnpm run web:build",
+    "lint": "pnpm run api:lint && pnpm run web:lint",
+    "format": "pnpm --recursive run format"
   },
-  "devDependencies": {
-    "@commitlint/cli": "^16.0.1",
-    "@commitlint/config-conventional": "^16.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.9.0",
-    "@typescript-eslint/parser": "^5.9.0",
-    "commitizen": "^4.2.4",
-    "conventional-changelog-cli": "^2.2.2",
-    "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.28.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-svelte3": "^4.0.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-config-next": "13.1.5",
-    "fbjs-scripts": "^3.0.1",
-    "husky": "^7.0.4",
-    "jest": "^27.4.7",
-    "nx": "^15.8.8",
-    "prettier": "^2.8.6",
-    "prettier-plugin-svelte": "^2.9.0",
-    "ts-jest": "^29.0.5",
-    "typescript": "^4.5.4"
+  "engines": {
+    "node": ">=22.13.0",
+    "pnpm": ">=10.0.0"
   },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "dependencies": {
-    "eslint-config-next": "^13.2.3",
-    "eslint-config-prettier": "^8.7.0"
-  }
+  "packageManager": "pnpm@11.5.0+sha512.dbfcc4f81cf48597afd4bc391ffdf12c11f1a9fb83a395bfa6b0a2d9cc2fd8ffebafdb1ccbd529632153f793904c2615b7f09fe1a345473fd1c35845172a8eb1"
 }
