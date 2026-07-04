@@ -10,3 +10,9 @@ onlyBuiltDependencies:
   - 'sharp'
 
 minimumReleaseAge: 1440
+
+allowBuilds:
+  '@scarf/scarf': true
+  '@swc/core': true
+  bcrypt: true
+  sharp: true
