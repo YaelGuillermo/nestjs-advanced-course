@@ -1,75 +1,102 @@
-# 🎬 NestJS Learning Projects Repository
+# NestJS Advanced Course
 
-This repository contains small **NestJS projects** built while following YouTube tutorials, courses, and personal experiments.
-The goal of this repo is **learning, practicing, and reinforcing backend development concepts** using NestJS.
+A collection of projects built throughout an advanced **NestJS** course, covering modern backend development practices and real-world application architecture.
 
----
+Each project introduces a specific concept or feature while following a progressive learning path, from core NestJS fundamentals to advanced topics such as authentication, database integration, testing, and application scalability.
 
-## 📚 Purpose
-
-* Practice backend development with **NestJS**
-* Reinforce concepts from YouTube videos and online courses
-* Experiment with features in small, focused projects
-* Build a solid foundation in scalable Node.js applications
-
-This repository is for **learning purposes only**.
+> This repository serves as a personal reference for studying and revisiting advanced NestJS concepts.
 
 ---
 
-## 🛠 Tech Stack
+## Overview
 
-* [NestJS](https://nestjs.com/)
-* Node.js
-* TypeScript
-* Express (default NestJS adapter)
-* Other tools depending on the project:
+The purpose of this repository is to document the learning process while building backend applications with NestJS following industry best practices.
 
-  * Prisma / TypeORM
-  * PostgreSQL / MongoDB
-  * JWT Authentication
-  * Docker
-  * Swagger
+Topics are explored through small, independent projects designed to focus on a single concept at a time before combining them into larger applications.
 
 ---
 
-## 📁 Project Structure
+## Topics Covered
 
-Each folder represents a small independent project:
+- NestJS Architecture
+- Modules & Dependency Injection
+- Controllers & Providers
+- Custom Decorators
+- Pipes, Guards & Interceptors
+- Exception Filters
+- Authentication & Authorization
+- JWT & Passport
+- Role-Based Access Control (RBAC)
+- Database Integration
+- Prisma & TypeORM
+- PostgreSQL & MongoDB
+- Configuration Management
+- File Uploads
+- API Documentation with Swagger
+- Testing
+- Docker
+- Deployment Fundamentals
 
+---
+
+## Technology Stack
+
+| Technology | Purpose |
+|------------|---------|
+| NestJS | Backend Framework |
+| TypeScript | Programming Language |
+| Node.js | Runtime Environment |
+| Express | HTTP Platform |
+| Prisma / TypeORM | ORM |
+| PostgreSQL / MongoDB | Databases |
+| JWT | Authentication |
+| Swagger | API Documentation |
+| Docker | Containerization |
+
+---
+
+## Repository Structure
+
+```text
+.
+├── project-01
+├── project-02
+├── project-03
+├── ...
+└── README.md
 ```
-projects/
-│
-├── project-01-basic-api/
-├── project-02-auth-jwt/
-├── project-03-crud-prisma/
-└── ...
-```
 
-Each project contains its own:
-
-* `package.json`
-* Environment configuration
-* Independent setup instructions (if necessary)
+Each project is completely independent and includes its own configuration, dependencies, and documentation when required.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/your-username/nestjs-advanced-course.git
 ```
 
-Install dependencies inside a specific project:
+Move into the repository:
 
 ```bash
-cd projects/project-name
+cd nestjs-advanced-course
+```
+
+Choose a project:
+
+```bash
+cd project-01
+```
+
+Install dependencies:
+
+```bash
 npm install
 ```
 
-Run the development server:
+Start the development server:
 
 ```bash
 npm run start:dev
@@ -77,42 +104,30 @@ npm run start:dev
 
 ---
 
-## 🎯 Learning Goals
+## Learning Objectives
 
-* Understand NestJS architecture (Modules, Controllers, Providers)
-* Implement REST APIs
-* Work with DTOs and Validation Pipes
-* Implement Authentication & Authorization
-* Connect databases using ORM tools
-* Structure scalable backend applications
-* Follow best practices
+By completing these projects, the goal is to gain practical experience with:
 
----
-
-## 🧠 Notes
-
-* Some projects may follow specific tutorials.
-* Code may evolve over time as concepts become clearer.
-* Improvements and refactors are part of the learning process.
+- Designing scalable backend architectures
+- Building production-ready REST APIs
+- Applying software engineering best practices
+- Writing clean and maintainable code
+- Implementing secure authentication flows
+- Managing relational and NoSQL databases
+- Structuring large NestJS applications
 
 ---
 
-## 📌 Disclaimer
+## Repository Status
 
-This repository is intended for **educational purposes**.
-Projects are based on tutorials, documentation, and experimentation.
+This repository is continuously updated as new sections of the course are completed.
 
----
-
-## 📈 Progress
-
-Learning is continuous 🚀
-New mini-projects will be added as new concepts are explored.
+Additional projects and improvements will be added over time.
 
 ---
 
-## 📬 Contact
+## License
 
-Feel free to connect, suggest improvements, or share learning resources.
+This repository is provided for educational purposes only.
 
-Happy coding! 💻
+Feel free to fork it, explore the code, and use it as a learning reference.
