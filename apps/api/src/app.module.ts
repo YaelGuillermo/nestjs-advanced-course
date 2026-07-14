@@ -25,8 +25,6 @@ import { ConfigService } from 'src/config/config.service';
 import { DatabaseModule } from 'src/database/database.module';
 import { HealthModule } from 'src/infrastructure/health/health.module';
 import { StorageModule } from 'src/infrastructure/storage/storage.module';
-import { AccountsModule } from 'src/modules/accounts/accounts.module';
-import { ThreadsModule } from 'src/modules/threads/threads.module';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { LoggingModule } from './infrastructure/logging/logging.module';
@@ -40,8 +38,6 @@ import { HttpLoggerMiddleware } from './infrastructure/logging/middlewares/http-
     DatabaseModule,
     StorageModule,
     HealthModule,
-    AccountsModule,
-    ThreadsModule,
     I18nModule.forRoot({
       fallbackLanguage: 'en',
       loader: I18nJsonLoader,
