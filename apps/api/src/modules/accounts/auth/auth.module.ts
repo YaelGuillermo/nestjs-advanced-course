@@ -5,7 +5,7 @@ import { PassportModule } from '@nestjs/passport';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from 'src/config/config.module';
 import { LoggingModule } from 'src/infrastructure/logging/logging.module';
-//import { UsersModule } from 'src/modules/accounts/users/users.module';
+import { UsersModule } from 'src/modules/accounts/users/users.module';
 import { AuthController } from './controllers/auth.controller';
 import { GoogleAuthAccount } from './entities/google-auth-account.entity';
 import { TokenBlacklist } from './entities/token-blacklist.entity';
@@ -24,6 +24,7 @@ import { LocalStrategy } from './strategies/local.strategy';
 
 @Module({
   imports: [
+    UsersModule,
     ConfigModule,
     LoggingModule,
     PassportModule.register({ session: false }),

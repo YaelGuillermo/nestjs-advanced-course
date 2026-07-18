@@ -51,12 +51,6 @@ async function bootstrap(): Promise<void> {
     logScriptResult(`Seed completed with seed=${seedConfig.seed}.`);
     logScriptResult(`Users: ${summary.users}.`);
     logScriptResult(`User avatars: ${summary.userAvatars}.`);
-    logScriptResult(`Follows: ${summary.follows}.`);
-    logScriptResult(
-      `Posts: ${summary.posts} (${summary.rootPosts} root posts, ${summary.replies} replies).`,
-    );
-    logScriptResult(`Post images: ${summary.postImages}.`);
-    logScriptResult(`Reactions: ${summary.reactions}.`);
     logScriptResult(`Seed user password: ${summary.seedPassword}`);
   } finally {
     if (dataSource.isInitialized) {
