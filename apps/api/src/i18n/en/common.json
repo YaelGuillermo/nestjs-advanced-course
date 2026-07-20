@@ -1,0 +1,82 @@
+{
+  "success": {
+    "ok": {
+      "title": "Operation completed successfully",
+      "description": "The operation was completed successfully."
+    },
+    "created": {
+      "title": "Resource created successfully",
+      "description": "The resource has been created successfully."
+    },
+    "updated": {
+      "title": "Resource updated successfully",
+      "description": "The resource has been updated successfully."
+    },
+    "deleted": {
+      "title": "Resource deleted successfully",
+      "description": "The resource has been deleted successfully."
+    }
+  },
+  "errors": {
+    "validation": {
+      "title": "Validation failed",
+      "description": "One or more fields are invalid."
+    },
+    "bad_request": {
+      "title": "Bad request",
+      "description": "The request could not be processed."
+    },
+    "unauthorized": {
+      "title": "Unauthorized",
+      "description": "You need to be authenticated to access this resource."
+    },
+    "forbidden": {
+      "title": "Forbidden",
+      "description": "You do not have permission to access this resource."
+    },
+    "not_found": {
+      "title": "Resource not found",
+      "description": "The requested resource does not exist."
+    },
+    "conflict": {
+      "title": "Conflict",
+      "description": "The request conflicts with the current state of the resource."
+    },
+    "too_many_requests": {
+      "title": "Too many requests",
+      "description": "You have made too many requests. Please try again later."
+    },
+    "timeout": {
+      "title": "Request timeout",
+      "description": "The request took too long to complete."
+    },
+    "request_timeout": {
+      "title": "Request timeout",
+      "description": "The request took too long to complete."
+    },
+    "internal": {
+      "title": "Internal server error",
+      "description": "An unexpected error occurred."
+    },
+    "limit_reached": {
+      "title": "Limit reached",
+      "description": "You can create at most {maximum} items. Remaining: {remaining}. Requested: {requested}."
+    },
+    "limit_context_user": {
+      "title": "Invalid user limit context",
+      "description": "The user context required to evaluate the limit could not be resolved. Expected field: {field}."
+    },
+    "limit_context_parent": {
+      "title": "Invalid parent limit context",
+      "description": "The parent context required to evaluate the limit could not be resolved. Expected field: {field}."
+    },
+    "limit_parent_entity_not_found": {
+      "title": "Parent entity not found",
+      "description": "The parent entity required to evaluate the limit could not be found."
+    },
+    "limit_tree_depth_reached": {
+      "title": "Tree depth limit reached",
+      "description": "The maximum allowed depth for this hierarchical structure has been reached."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "errors": {
+    "image_required": {
+      "title": "Imagen requerida",
+      "description": "Debes subir una imagen para continuar."
+    },
+    "images_required": {
+      "title": "Imágenes requeridas",
+      "description": "Debes subir al menos una imagen para continuar."
+    },
+    "invalid_upload": {
+      "title": "Carga inválida",
+      "description": "El archivo subido no pudo procesarse."
+    },
+    "image_limit_reached": {
+      "title": "Límite de imágenes alcanzado",
+      "description": "Puedes subir como máximo {maximum} imágenes. Actual: {current}. Restantes: {remaining}."
+    }
+  }
+}

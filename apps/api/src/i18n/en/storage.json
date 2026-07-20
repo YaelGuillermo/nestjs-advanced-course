@@ -1,0 +1,20 @@
+{
+  "errors": {
+    "image_required": {
+      "title": "Image required",
+      "description": "You must upload an image file to continue."
+    },
+    "images_required": {
+      "title": "Images required",
+      "description": "You must upload at least one image file to continue."
+    },
+    "invalid_upload": {
+      "title": "Invalid upload",
+      "description": "The uploaded file could not be processed."
+    },
+    "image_limit_reached": {
+      "title": "Image limit reached",
+      "description": "You can upload at most {maximum} images. Current: {current}. Remaining: {remaining}."
+    }
+  }
+}

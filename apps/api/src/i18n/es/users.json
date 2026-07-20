@@ -1,0 +1,93 @@
+{
+  "success": {
+    "list": {
+      "title": "Usuarios obtenidos correctamente",
+      "description": "La lista de usuarios se obtuvo correctamente."
+    },
+    "fetched": {
+      "title": "Detalles del usuario obtenidos",
+      "description": "Los detalles del usuario se obtuvieron correctamente."
+    },
+    "created": {
+      "title": "Usuario creado correctamente",
+      "description": "El usuario se creó correctamente."
+    },
+    "updated": {
+      "title": "Usuario actualizado correctamente",
+      "description": "El usuario se actualizó correctamente."
+    },
+    "password_updated": {
+      "title": "Contraseña actualizada correctamente",
+      "description": "Tu contraseña se actualizó correctamente."
+    },
+    "deleted": {
+      "title": "Usuario eliminado correctamente",
+      "description": "El usuario se eliminó correctamente."
+    },
+    "pagination": {
+      "title": "Paginación de usuarios obtenida correctamente",
+      "description": "La información de paginación de usuarios se obtuvo correctamente."
+    },
+    "limits": {
+      "title": "Límites de usuarios obtenidos correctamente",
+      "description": "La información de límites de usuarios se obtuvo correctamente."
+    },
+    "hateoas": {
+      "title": "Enlaces de usuarios obtenidos correctamente",
+      "description": "Los enlaces HATEOAS de usuarios se obtuvieron correctamente."
+    }
+  },
+  "errors": {
+    "not_found": {
+      "title": "Usuario no encontrado",
+      "description": "No se pudo encontrar el usuario solicitado."
+    },
+    "username_already_exists": {
+      "title": "El nombre de usuario ya existe",
+      "description": "Este nombre de usuario ya está en uso."
+    },
+    "email_already_exists": {
+      "title": "El correo ya existe",
+      "description": "Este correo ya está registrado."
+    },
+    "password_not_set": {
+      "title": "Contraseña no configurada",
+      "description": "Este usuario no tiene una contraseña configurada."
+    },
+    "password_mismatch": {
+      "title": "Las contraseñas no coinciden",
+      "description": "Las contraseñas no coinciden."
+    },
+    "password_too_short": {
+      "title": "Contraseña demasiado corta",
+      "description": "La contraseña debe tener al menos 8 caracteres."
+    },
+    "old_password_incorrect": {
+      "title": "Contraseña actual incorrecta",
+      "description": "La contraseña actual ingresada es incorrecta."
+    },
+    "username_too_short": {
+      "title": "Nombre de usuario demasiado corto",
+      "description": "El nombre de usuario debe tener al menos 3 caracteres."
+    },
+    "username_too_long": {
+      "title": "Nombre de usuario demasiado largo",
+      "description": "El nombre de usuario no puede exceder 32 caracteres."
+    },
+    "username_invalid": {
+      "title": "Nombre de usuario inválido",
+      "description": "El nombre de usuario solo puede contener letras minúsculas, números y guiones bajos."
+    },
+    "email_invalid": {
+      "title": "Correo inválido",
+      "description": "Proporciona un correo electrónico válido en minúsculas."
+    }
+  },
+  "validation": {
+    "username_format": "solo puede contener letras minúsculas, números y guiones bajos.",
+    "username_or_email_format": "debe ser un nombre de usuario válido o un correo en minúsculas.",
+    "person_name_format": "solo debe contener caracteres válidos para nombres.",
+    "name_format": "solo puede contener letras, números, espacios, puntos, guiones bajos y guiones.",
+    "password_complexity": "debe contener al menos una mayúscula, una minúscula, un número y un carácter especial."
+  }
+}

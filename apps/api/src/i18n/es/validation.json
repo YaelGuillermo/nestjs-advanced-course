@@ -1,0 +1,20 @@
+{
+  "required": "{property} es obligatorio.",
+  "string": "{property} debe ser una cadena de texto.",
+  "email": "{property} debe ser un correo electrónico válido.",
+  "min_length": "{property} debe tener al menos {constraints.0} caracteres.",
+  "max_length": "{property} no debe exceder {constraints.0} caracteres.",
+  "number": "{property} debe ser un número válido.",
+  "integer": "{property} debe ser un entero.",
+  "min": "{property} debe ser como mínimo {constraints.0}.",
+  "max": "{property} debe ser como máximo {constraints.0}.",
+  "boolean": "{property} debe ser un valor booleano.",
+  "uuid": "{property} debe ser un UUID válido.",
+  "enum": "{property} debe ser un valor válido.",
+  "array": "{property} debe ser un arreglo.",
+  "array_not_empty": "{property} debe contener al menos un elemento.",
+  "date_string": "{property} debe ser una fecha ISO válida.",
+  "url": "{property} debe ser una URL válida.",
+  "jwt": "{property} debe ser un JWT válido.",
+  "unknown_field": "{property} no debería existir."
+}

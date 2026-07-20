@@ -1,0 +1,12 @@
+{
+  "success": {
+    "home": {
+      "title": "API disponible",
+      "description": "Bienvenido a la API de NestJS Tutorial."
+    },
+    "info": {
+      "title": "Información de la API obtenida",
+      "description": "La información de la API se obtuvo correctamente."
+    }
+  }
+}

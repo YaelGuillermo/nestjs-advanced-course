@@ -1,0 +1,93 @@
+{
+  "success": {
+    "list": {
+      "title": "Users retrieved successfully",
+      "description": "The list of users has been retrieved successfully."
+    },
+    "fetched": {
+      "title": "User details retrieved",
+      "description": "The user details have been retrieved successfully."
+    },
+    "created": {
+      "title": "User created successfully",
+      "description": "The user has been created successfully."
+    },
+    "updated": {
+      "title": "User updated successfully",
+      "description": "The user has been updated successfully."
+    },
+    "password_updated": {
+      "title": "Password updated successfully",
+      "description": "Your password has been updated successfully."
+    },
+    "deleted": {
+      "title": "User deleted successfully",
+      "description": "The user has been deleted successfully."
+    },
+    "pagination": {
+      "title": "User pagination retrieved successfully",
+      "description": "The pagination information for users has been retrieved successfully."
+    },
+    "limits": {
+      "title": "User limits retrieved successfully",
+      "description": "The limits information for users has been retrieved successfully."
+    },
+    "hateoas": {
+      "title": "User links retrieved successfully",
+      "description": "The HATEOAS links for users have been retrieved successfully."
+    }
+  },
+  "errors": {
+    "not_found": {
+      "title": "User not found",
+      "description": "The requested user could not be found."
+    },
+    "username_already_exists": {
+      "title": "Username already exists",
+      "description": "This username is already taken."
+    },
+    "email_already_exists": {
+      "title": "Email already exists",
+      "description": "This email is already registered."
+    },
+    "password_not_set": {
+      "title": "Password not set",
+      "description": "This user does not have a password set."
+    },
+    "password_mismatch": {
+      "title": "Password mismatch",
+      "description": "The passwords do not match."
+    },
+    "password_too_short": {
+      "title": "Password too short",
+      "description": "The password must be at least 8 characters long."
+    },
+    "old_password_incorrect": {
+      "title": "Old password incorrect",
+      "description": "The current password you entered is incorrect."
+    },
+    "username_too_short": {
+      "title": "Username too short",
+      "description": "Username must be at least 3 characters long."
+    },
+    "username_too_long": {
+      "title": "Username too long",
+      "description": "Username cannot exceed 32 characters."
+    },
+    "username_invalid": {
+      "title": "Username invalid",
+      "description": "Username can contain only lowercase letters, numbers, and underscores."
+    },
+    "email_invalid": {
+      "title": "Email invalid",
+      "description": "Please provide a valid lowercase email address."
+    }
+  },
+  "validation": {
+    "username_format": "may contain only lowercase letters, numbers, and underscores.",
+    "username_or_email_format": "must be a valid username or lowercase email address.",
+    "person_name_format": "must contain only valid name characters.",
+    "name_format": "may contain only letters, numbers, spaces, dots, underscores, and hyphens.",
+    "password_complexity": "must contain at least one uppercase letter, one lowercase letter, one number, and one special character."
+  }
+}

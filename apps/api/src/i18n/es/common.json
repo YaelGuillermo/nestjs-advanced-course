@@ -1,0 +1,82 @@
+{
+  "success": {
+    "ok": {
+      "title": "Operación completada correctamente",
+      "description": "La operación se completó correctamente."
+    },
+    "created": {
+      "title": "Recurso creado correctamente",
+      "description": "El recurso se creó correctamente."
+    },
+    "updated": {
+      "title": "Recurso actualizado correctamente",
+      "description": "El recurso se actualizó correctamente."
+    },
+    "deleted": {
+      "title": "Recurso eliminado correctamente",
+      "description": "El recurso se eliminó correctamente."
+    }
+  },
+  "errors": {
+    "validation": {
+      "title": "Validación fallida",
+      "description": "Uno o más campos no son válidos."
+    },
+    "bad_request": {
+      "title": "Solicitud incorrecta",
+      "description": "La solicitud no pudo procesarse."
+    },
+    "unauthorized": {
+      "title": "No autenticado",
+      "description": "Necesitas autenticarte para acceder a este recurso."
+    },
+    "forbidden": {
+      "title": "Acceso prohibido",
+      "description": "No tienes permiso para acceder a este recurso."
+    },
+    "not_found": {
+      "title": "Recurso no encontrado",
+      "description": "El recurso solicitado no existe."
+    },
+    "conflict": {
+      "title": "Conflicto",
+      "description": "La solicitud entra en conflicto con el estado actual del recurso."
+    },
+    "too_many_requests": {
+      "title": "Demasiadas solicitudes",
+      "description": "Has realizado demasiadas solicitudes. Inténtalo de nuevo más tarde."
+    },
+    "timeout": {
+      "title": "Tiempo de espera agotado",
+      "description": "La solicitud tardó demasiado en completarse."
+    },
+    "request_timeout": {
+      "title": "Tiempo de espera agotado",
+      "description": "La solicitud tardó demasiado en completarse."
+    },
+    "internal": {
+      "title": "Error interno del servidor",
+      "description": "Ocurrió un error inesperado."
+    },
+    "limit_reached": {
+      "title": "Límite alcanzado",
+      "description": "Puedes crear como máximo {maximum} elementos. Restantes: {remaining}. Solicitados: {requested}."
+    },
+    "limit_context_user": {
+      "title": "Contexto de límite de usuario inválido",
+      "description": "No se pudo resolver el contexto de usuario requerido para evaluar el límite. Campo esperado: {field}."
+    },
+    "limit_context_parent": {
+      "title": "Contexto de límite padre inválido",
+      "description": "No se pudo resolver el contexto padre requerido para evaluar el límite. Campo esperado: {field}."
+    },
+    "limit_parent_entity_not_found": {
+      "title": "Entidad padre no encontrada",
+      "description": "No se encontró la entidad padre requerida para evaluar el límite."
+    },
+    "limit_tree_depth_reached": {
+      "title": "Límite de profundidad alcanzado",
+      "description": "Se alcanzó la profundidad máxima permitida para esta estructura jerárquica."
+    }
+  }
+}

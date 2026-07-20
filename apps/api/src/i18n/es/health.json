@@ -1,0 +1,8 @@
+{
+  "errors": {
+    "disabled": {
+      "title": "Health checks deshabilitados",
+      "description": "Los health checks están deshabilitados en este entorno."
+    }
+  }
+}
